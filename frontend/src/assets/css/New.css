@@ -1,0 +1,82 @@
+.set-new-password-container {
+    max-width: 400px;
+    /* margin: 0 auto; */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .icon-container {
+    background-color: #f3f4f6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+  }
+  
+  .lock-icon {
+    font-size: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .password-requirement {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+    padding: 1px;
+    border-radius: 8px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+  }
+  
+  input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .reset-button {
+    width: 100%;
+    padding: 5px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    
+  }
+  
+  .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .password-view{
+    margin-top: 10px;
+  }

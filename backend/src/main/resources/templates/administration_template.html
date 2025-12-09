@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reset Request</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .reset-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .table th, .table td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: #ccc; /* Gray header */
+        }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #999;
+        }
+
+        .logo {
+            max-width: 120px;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="cid:RRA_Logo_home" alt="Company Logo" class="logo"> <!-- Added logo here -->
+        <h1>Transport Request for Approved Mission Order</h1>
+        <p>Dear Assistant Commissioner in charge of Administration and Logistics Division, this is to notify you that Mission order number {mission_id} for {requestor_name} has been approved and the staff needs RRA CAR as detailed below:</p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Date From</th>
+                    <th>Date To</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dynamically generated rows will be inserted here -->
+                {mission_destinations}
+            </tbody>
+        </table>
+
+        <p>Kindly avail the transport means accordingly.</p>
+        
+        <p>Please click on this link {link} for the Travel Clearance full details for your reference.</p>
+
+        <p>Respectfully,</p>
+
+        <div class="footer">
+            <p>This is an automated message. Please do not reply to this email.</p>
+        </div>
+    </div>
+</body>
+
+</html>

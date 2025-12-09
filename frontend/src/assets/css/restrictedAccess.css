@@ -1,0 +1,53 @@
+/* Container for the whole page */
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling the 403 number */
+  .number {
+    font-size: 150px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .digit {
+    font-size: 150px;
+  }
+  
+  /* Lock icon styling */
+  .lock-icon {
+    width: 120px;  
+    height: 120px;
+    /* margin: 0 5px;   */
+  }
+  
+  /* Message text styling */
+  .message h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+  }
+  
+  .message p {
+    font-size: 18px;
+    margin: 0 0 20px;
+  }
+  
+  /* Request Access button styling */
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

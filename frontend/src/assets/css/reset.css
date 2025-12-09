@@ -1,0 +1,79 @@
+.password-reset-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+}
+
+.icon-container {
+  background-color: #f2f4f7;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.envelope-icon {
+  font-size: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #2970ff;
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.code-input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+.code-input {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+}
+
+.continue-button {
+  width: 87%;
+  padding: 5px;
+  background-color: #2970ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.resend-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.resend-text span {
+  color: #2970ff;
+  cursor: pointer;
+}
+
+.back-link {
+  margin-top: 10px; /* Reduced margin */
+  color: #2970ff;
+  text-decoration: none;
+  padding-bottom: 20px;
+}

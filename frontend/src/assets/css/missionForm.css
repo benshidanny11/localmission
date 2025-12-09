@@ -1,0 +1,387 @@
+
+.container {
+    margin-top: 20px;
+    width: 650px;
+    z-index: -1000;
+  }
+  .header-form {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 10px;
+  }
+  
+  .header-form img.Image {
+    width: 150px;
+    padding: 0px;
+  }
+  
+  .header-form img.Internal {
+    width: 100px;
+    padding: 0px;
+  }
+  
+  /* Separator */
+  .separator {
+    border: none;
+    height: 2px;
+    background: #ccc;
+    margin: 10px 0;
+  }
+  
+  .headercontainer {
+    text-align: center;
+  }
+  
+  .reference_input input[type="text"] {
+    border: none;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 60%;
+  }
+  
+  .date_input input[type="date"]{
+    border: none;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .head1 {
+    font-size: 26px; /* Reduced font size */
+    color: #000000;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin-bottom: 50px;
+    font-weight: 600;
+  }
+  
+  /* Labels and Input Fields */
+  .Labels, .Labels1 {
+    margin: 10px 0; /* Reduced margin */
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+  }
+  
+  
+  .LabelTop {
+    display: flex;
+    margin: 10px 0px; /* Reduced margin */
+    display: flex;
+    align-items: center;
+  }
+  
+  .LabelTop label {
+    width: auto;
+  }
+  
+  
+  label {
+    display: inline-block;
+    margin-right: 10px; /* Added margin-right */
+    font-weight: 600;
+    color: #1f1e1e;
+    font-size: 13px; /* Reduced font size */
+    width: 150px;
+  }
+  
+  
+  .Labels input[type="text"],
+  .Labels input[type="file"],
+  .Labels select {
+    flex: 1; 
+    padding: 5px 10px !important; /* Reduced padding */
+    margin-top: 0; /* Removed margin-top */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 12px; /* Reduced font size */
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    outline: none;
+    width: 100%;
+  }
+  
+  textarea.text_area {
+    width: 71.5%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    outline: none;
+    resize: none;
+    /* margin-left: 35px; */
+    font-size: 12px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 10px rgba(26, 115, 232, 0.5);
+  }
+  
+  /* Form Container */
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Reduced gap */
+  }
+  
+  
+  .form-group,
+  .form-group1 {
+    flex: 1;
+  }
+  
+  /* Table Styles */
+  .table {
+    width: 97%;
+    border-collapse: collapse;
+    margin: 15px 0; 
+    margin-bottom: 30px;
+    /* font-size: 12px; */
+  }
+  
+  .table1{
+    width: 97%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    padding-bottom: 5px;
+    margin-top: 0px;
+  }
+  
+  #missionTable { 
+    border: 1px solid rgb(192, 192, 192);
+  }
+  
+  .table th {
+    padding: 5px 15px; /* Reduced padding */
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+  }
+  .table td {
+    padding: 5px 15px; /* Reduced padding */
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+    border: 1px solid rgb(167, 167, 167);
+  }
+  
+  .table1 th {
+    font-weight: 600;
+    font-size: 13px;
+    padding: 2px;
+    background-color: rgb(234, 233, 231);
+  
+    text-align: center;
+  }
+  
+  .table1 th, .table1 td {
+    border: 1px solid rgb(192, 192, 192);
+    font-size: 12px;
+  }
+  
+  .Add-btn-Cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  
+  .table1 .td_dropdown {
+    border: none !important;
+  }
+  
+  .form-control1 {
+    width: 100px;
+  }
+  
+  .table-days-nights {
+    /* padding: 5px 0; */
+    width: 8%;
+  }
+  
+  .table th {
+    background-color: rgb(234, 150, 47);
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin: 25px 0; /* Reduced margin */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .icon-container2 {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Reduced gap */
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .icon-container a {
+    display: inline-block;
+  }
+  
+  .icon-container2 img {
+    width: 15px;
+    height: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-container2 img:hover {
+    transform: scale(1.1);
+  }
+
+  .action_icons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .icon-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .input-field {
+    margin-top: 5px;
+  }
+  
+  .plate{
+    /* margin-left: 30px; */
+    width: 180px;
+    margin-top: 50px;
+  }
+  
+  .datedepart{
+    /* margin-left: 35px; */
+    width: 34%;
+  }
+  
+  .depart-location{
+    /* margin-left: 20px; */
+    width: 34%;
+    margin-right: 21px;
+  }
+  
+  .Staff-id{
+    /* margin-left: 107px; */
+    width: 71.5%;
+    padding: 1px;
+  }
+  
+  .staff-name{
+    /* margin-left: 80px; */
+    width: 71.5%;
+    padding: 1px;
+  }
+  
+  .title-name{
+    /* margin-left: 126px; */
+    width: 71.5%;
+    padding: 0px;
+  }
+  
+  .depart-name{
+    /* margin-left: 81px; */
+    width: 71.5%;
+    padding: 1px;
+  }
+  .table1 td{
+    text-align: center;
+  }
+  
+  .prop-id{
+    /* margin-left: 50px; */
+    width: 71.5%;
+  }
+  
+  
+  
+  
+  .text_area2{
+    width: 71.5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    outline: none;
+    resize: none;
+    /* margin-left: 77px; */
+    font-size: 12px;
+  }
+  
+  .tranallow_field{
+  /* margin-left: 35px; */
+  width: 71.5%;
+  }
+  
+  .amount_field{
+    /* margin-left: 78px; */
+    width: 71.5%;
+  }
+  
+  .missionallow_field{
+    /* margin-left: 47px; */
+    width: 71.5%;
+  }
+  
+  .missionallow_field_1 {
+    width: 100%;
+  }
+  
+  .mission-duration{
+    /* margin-left: 56px; */
+    width: 71.5%;
+  }
+  
+  .return_date{
+    /* margin-left: 83px; */
+    width: 71.5%;
+    margin-top: 5px;
+  }
+  
+  .transportCont {
+    width: 71.5%;
+  }
+  
+  .attachments{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .attachments1{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: -25px;
+  }
+
+  .dest-header{
+    margin-top: 20px;
+  }
+  
+
+  

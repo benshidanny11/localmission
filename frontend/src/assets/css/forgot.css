@@ -1,0 +1,107 @@
+/* Remove body styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* Style for the container */
+.forgot-password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures it takes up the full viewport height */
+   /* Background color for the container */
+  font-family: 'Arial', sans-serif; /* Font styling */
+}
+  
+  .forgot-password-card {
+    background: white;
+    padding: 40px 20px;
+    width: 350px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+    text-align: center;
+
+  }
+  
+  .icon-container img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #007bff;
+
+  }
+  
+  p {
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .input-error {
+    border-color: #ff4d4f;
+  }
+  
+  .error-message {
+    color: #ff4d4f;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .reset{
+    width: 100%;
+    background-color: #007bffb3;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .reset:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-to-login {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .back-to-login:hover {
+    text-decoration: underline;
+  }
+  

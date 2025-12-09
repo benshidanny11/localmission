@@ -1,0 +1,74 @@
+@keyframes bounceIn {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(30px);
+    }
+    60% {
+      transform: translateY(15px);
+    }
+  } 
+  
+  .notification {
+    position: fixed;
+    top: 20px; /* Adjust as needed */
+    left: 40%;
+    /* transform: translateX(-50%); */
+    background-color: white;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    animation: bounceIn 1s ease; /* Apply the bounce effect */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 275px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .notification.success {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px;
+  }
+  
+  .notification.error {
+    background-color: #f01000; /* Red */
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .notification.info {
+    background-color: #2196F3; /* Blue */
+    color: white;
+    padding: 10px;
+  }
+  
+  .notification.warning {
+    background-color: #FFC107; /* Yellow */
+    color: white;
+    padding: 10px;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: inherit;
+  }
+  
+  .close-btn:focus {
+    outline: none;
+  }
+  
+  /* Fade-out effect for auto close */
+  .notification.fade-out {
+    opacity: 0;
+  }
+  

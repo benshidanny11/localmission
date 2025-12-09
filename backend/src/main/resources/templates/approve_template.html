@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reset Request</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            /* text-align: center; */
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .reset-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .message-details {
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #999;
+        }
+        .logo {
+            max-width: 120px;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="cid:RRA_Logo_home" alt="Company Logo" class="logo"> <!-- Added logo here -->
+        <h1>Mission Approved</h1>
+        <p>Dear <strong>{requestor}</strong>,</p>
+        <p>Your mission order with <strong>{mission_id}</strong> has been approved by <strong>{approver}</strong>.</p>
+        
+        <div class="message-details"></div>
+            <h2>Important Information</h2>
+            <p>This email has also been sent to the finance department for payment processing. <strong>Please do not resend the mission order.</strong></p>
+            <p>Thank you.</p>
+        </div>
+
+       
+        <div class="footer">
+            <p>This is an automated message. Please do not reply to this email.</p>
+        </div>
+    </div>
+</body>
+
+</html>

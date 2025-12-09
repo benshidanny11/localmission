@@ -1,0 +1,105 @@
+ /* Centering the form */
+ .centered-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 485px;
+}
+
+/* Image Container */
+.image_container { 
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  border: 1px solid;
+  flex-grow: 5;
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+/* Card Container Css */
+.card {
+  width: 100%;
+  max-width: 350px; /* Adjusted max-width */
+  padding: 18px 30px; /* Adjusted padding */
+  border-radius: 8px; /* Adjusted border-radius */
+  box-shadow: 0 10px 20px rgba(59, 46, 46, 0.1); /* Reduced shadow */
+  height: 100%;
+  font-size: 14px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 100px;
+}
+
+.input-icon {
+  position: relative;
+
+}
+
+.input-icon i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: hsl(0, 0%, 2%);
+
+}      
+
+.form-check {
+  margin-right: auto; /* Pushes "Remember Me" to the left */
+  padding-top: 5px;
+}
+
+.form-check-input {
+  border: 2px solid;
+}
+
+.forget {
+  color: blue;
+  margin-left: auto; /* Pushes the "Forgot Password" link to the right */
+  text-align: right;
+}
+
+/* Button styling */
+.btn-signin {
+  margin-top: 0rem;
+  width: 100%;
+}
+
+.d-flex-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Message styling */
+.message {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+} 
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.login_label{
+  text-align: center;
+  color: black;
+  font-weight: 800;
+}
