@@ -4,5 +4,6 @@ public enum AccountType {
     supervisor,
     editor,
     view,
-    erecruitment
+    erecruitment,
+    sports
 }
